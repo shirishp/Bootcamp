@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9169a75-7c29-4a59-86bf-d21b663ba2c6" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Rectangle.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/bootcamp/Rectangle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/RectangleTest.java" afterPath="$PROJECT_DIR$/test/com/thoughtworks/bootcamp/RectangleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/bootcamp/Chance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/thoughtworks/bootcamp/ChanceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thoughtworks/bootcamp/Square.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/thoughtworks/bootcamp/SquareTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Bootcamp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="a9169a75-7c29-4a59-86bf-d21b663ba2c6" time="1353911044712" ignored="false" />
+    <file path="/fragment.java" changelist="a9169a75-7c29-4a59-86bf-d21b663ba2c6" time="1353926371103" ignored="false" />
+    <file path="/Chance.java" changelist="a9169a75-7c29-4a59-86bf-d21b663ba2c6" time="1353924256362" ignored="false" />
+    <file path="/ChanceTest.java" changelist="a9169a75-7c29-4a59-86bf-d21b663ba2c6" time="1353922876230" ignored="false" />
+    <file path="/AnnotationType.txt.ft" changelist="a9169a75-7c29-4a59-86bf-d21b663ba2c6" time="1353920145919" ignored="false" />
+    <file path="/Enum.txt.ft" changelist="a9169a75-7c29-4a59-86bf-d21b663ba2c6" time="1353920141971" ignored="false" />
+    <file path="/Interface.txt.ft" changelist="a9169a75-7c29-4a59-86bf-d21b663ba2c6" time="1353920138255" ignored="false" />
+    <file path="/Class.txt.ft" changelist="a9169a75-7c29-4a59-86bf-d21b663ba2c6" time="1353920134689" ignored="false" />
     <file path="/Dummy.txt" changelist="a9169a75-7c29-4a59-86bf-d21b663ba2c6" time="1353910909902" ignored="false" />
     <file path="/RectangleTest.java" changelist="a9169a75-7c29-4a59-86bf-d21b663ba2c6" time="1353910404446" ignored="false" />
     <file path="/Rectangle.java" changelist="a9169a75-7c29-4a59-86bf-d21b663ba2c6" time="1353910213887" ignored="false" />
@@ -73,28 +80,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file leaf-file-name="Chance.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/bootcamp/Chance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+            <state line="18" column="14" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rectangle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/bootcamp/Rectangle.java">
+      <file leaf-file-name="Square.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/bootcamp/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="24" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
+            <state line="3" column="19" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RectangleTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/bootcamp/RectangleTest.java">
+      <file leaf-file-name="SquareTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/bootcamp/SquareTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="39" selection-start="519" selection-end="519" vertical-scroll-proportion="0.7161172">
+            <state line="13" column="5" selection-start="223" selection-end="223" vertical-scroll-proportion="0.2675545">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChanceTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/bootcamp/ChanceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="28" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,6 +142,10 @@
         <option value="$PROJECT_DIR$/src/java/main/Rectangle.java" />
         <option value="$PROJECT_DIR$/test/java/bootcamp/RectangleTest.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/bootcamp/RectangleTest.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/bootcamp/ChanceTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/bootcamp/Chance.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/bootcamp/Square.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/bootcamp/SquareTest.java" />
       </list>
     </option>
   </component>
@@ -255,9 +275,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/test/com/thoughtworks/bootcamp" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -274,42 +295,34 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.thoughtworks.bootcamp" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thoughtworks.bootcamp" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.thoughtworks.bootcamp" />
       <recent name="java.main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RectangleTest">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CommandLine" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RectangleTest.testSides" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+  <component name="RunManager" selected="JUnit.ChanceTest">
+    <configuration default="false" name="ChanceTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.bootcamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="CommandLine" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks.bootcamp" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.bootcamp.RectangleTest" />
-      <option name="METHOD_NAME" value="testSides" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.bootcamp.ChanceTest" />
+      <option name="METHOD_NAME" value="testEquals" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -325,13 +338,46 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="false" name="ChanceTest.testNotEquals" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.bootcamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="CommandLine" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks.bootcamp" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.bootcamp.RectangleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.bootcamp.ChanceTest" />
+      <option name="METHOD_NAME" value="testNotEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ChanceTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.bootcamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CommandLine" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.bootcamp" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.bootcamp.ChanceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -348,14 +394,47 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="RectangleTest.testArea" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="false" name="ChanceTest.testProbabilityOfBothEventsOccurring" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.bootcamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="CommandLine" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks.bootcamp" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.bootcamp.RectangleTest" />
-      <option name="METHOD_NAME" value="testArea" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.bootcamp.ChanceTest" />
+      <option name="METHOD_NAME" value="testProbabilityOfBothEventsOccurring" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ChanceTest.testProbabilityOfEitherEventsOccurring" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.bootcamp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CommandLine" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks.bootcamp" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.bootcamp.ChanceTest" />
+      <option name="METHOD_NAME" value="testProbabilityOfEitherEventsOccurring" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -407,18 +486,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RectangleTest.testSides" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RectangleTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RectangleTest.testArea" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ChanceTest.testEquals" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ChanceTest.testNotEquals" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ChanceTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ChanceTest.testProbabilityOfBothEventsOccurring" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ChanceTest.testProbabilityOfEitherEventsOccurring" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RectangleTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RectangleTest.testArea" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RectangleTest.testSides" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ChanceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ChanceTest.testProbabilityOfBothEventsOccurring" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ChanceTest.testProbabilityOfEitherEventsOccurring" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ChanceTest.testNotEquals" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ChanceTest.testEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -451,11 +532,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="974" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -471,12 +553,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6721311" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.67447305" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32552692" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -584,10 +665,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/bootcamp/RectangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="39" selection-start="519" selection-end="519" vertical-scroll-proportion="0.7161172">
+        <state line="22" column="51" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/bootcamp/ChanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="28" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/bootcamp/Chance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="14" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/bootcamp/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/bootcamp/SquareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="223" selection-end="223" vertical-scroll-proportion="0.2675545">
+          <folding />
         </state>
       </provider>
     </entry>
