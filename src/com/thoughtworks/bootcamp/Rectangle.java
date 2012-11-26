@@ -1,3 +1,5 @@
+package com.thoughtworks.bootcamp;
+
 public class Rectangle {
 
     private final float width;

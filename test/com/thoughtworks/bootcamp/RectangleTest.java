@@ -1,3 +1,5 @@
+package com.thoughtworks.bootcamp;
+
 import org.junit.Before;
 import org.junit.Test;
 
