@@ -41,4 +41,27 @@ public class MeasurementTest {
         assertFalse(new Measurement(1, Unit.INCH).equals(new Measurement(1, Unit.TSP)));
     }
 
+    @Test
+    public void shouldCheckForEqualityBetweenOzAndTBSP(){
+        assertEquals(new Measurement(1, Unit.OZ), (new Measurement(2, Unit.TBSP)));
+    }
+
+    @Test
+    public void shouldCheckForEqualityBetweenCupAndOz(){
+        assertEquals(new Measurement(1,Unit.CUP), (new Measurement(8, Unit.OZ)));
+    }
+
+    @Test
+    public void shouldBeAbleToAdd2MeasurementsOfSameType() {
+        Measurement length1 = new Measurement(2,Unit.FEET);
+        Measurement length2 = new Measurement(3,Unit.INCH);
+        assertEquals(new Measurement(27, Unit.INCH), length1.add(length2));
+    }
+
+    @Test(expected=IllegalArgumentException.class)
+    public void shouldNotAdd2MeasurementsOfDifferentTypes() {
+        Measurement firstMeasure = new Measurement(2, Unit.FEET);
+        Measurement anotherMeasure = new Measurement(1, Unit.OZ);
+        firstMeasure.add(anotherMeasure);
+    }
 }
