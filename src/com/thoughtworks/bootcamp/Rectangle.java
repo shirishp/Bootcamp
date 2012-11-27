@@ -1,20 +1,24 @@
 package com.thoughtworks.bootcamp;
 
 public class Rectangle {
+    private int length;
+    private int breadth;
 
-    private final float width;
-    private final float height;
-
-    public Rectangle(float width, float height) {
-        this.width = width;
-        this.height = height;
+    public Rectangle(int length, int breadth) {
+        this.length = length;
+        this.breadth = breadth;
     }
 
-    public float getArea() {
-        return width * height;
+    public static Rectangle createSquare(int side) {
+        return new Rectangle(side, side);
     }
 
-    public float getPerimeter() {
-        return 2 * (width + height);
+    public int area() {
+        return length * breadth;
     }
+
+    public int perimeter() {
+        return 2 * (length + breadth);
+    }
+
 }

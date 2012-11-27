@@ -1,26 +1,29 @@
 package com.thoughtworks.bootcamp;
 
+import com.thoughtworks.bootcamp.Rectangle;
 import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
+
 
 public class RectangleTest {
 
     private Rectangle rectangle;
 
     @Before
-    public void setUp() {
-        rectangle = new Rectangle(10f, 20f);
+    public void setup() {
+        this.rectangle = new Rectangle(2, 4);
     }
 
     @Test
-    public void testArea() throws Exception {
-        assertEquals("Invalid area", 200f, rectangle.getArea());
+    public void shouldCalculateArea() {
+        assertEquals(8, rectangle.area());
     }
 
     @Test
-    public void testPerimeter() throws Exception {
-        assertEquals("Invalid perimeter", 60f, rectangle.getPerimeter());
+    public void shouldCalculatePerimeter() {
+        assertEquals(12, rectangle.perimeter());
     }
+
 }
